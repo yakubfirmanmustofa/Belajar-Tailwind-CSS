@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="icon" href="/assets/image/PP.png" type="image/x-icon">
+    <link href="./output.css" rel="stylesheet">
+    <!-- ion icon -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- Js -->
+    <script src="script.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/7a908976de.js" crossorigin="anonymous"></script>
+
+    <style>
+        *{
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="font-['Poppins']">
+    <nav class=" md:px-56 px-9 py-4 bg-white md:flex md:items-center md:justify-between">
+        <div class="z-40 flex justify-between items-center">
+            <span class="text-2xl  cursor-pointer">
+                <a href="#" class="text-blue-500 font-[Poppins] font-extrabold">Firman</a>
+            </span>
+            <span class="text-3xl cursor-pointer mx-2 md:hidden block text-blue-500 hover:text-blue-200 duration-500">
+                <ion-icon name="menu" onclick="Menu(this)"></ion-icon> 
+            </span>
+        </div>
+        <ul class="text-blue-500 md:flex md:items-center md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+            <li class="mx-4 my-6  font-semibold"><a href="#" class="text-sm hover:text-blue-200 duration-500">Home</a></li>
+            <li class="mx-4 my-6  font-semibold"><a href="#about" class="text-sm hover:text-blue-200 duration-500">About</a></li>
+            <li class="mx-4 my-6  font-semibold"><a href="" class="text-sm hover:text-blue-200 duration-500">Skils</a></li>
+            <li class="mx-4 my-6  font-semibold"><a href="" class="text-sm hover:text-blue-200 duration-500">Qualification</a></li>
+            <li class="mx-4 my-6  font-semibold"><a href="" class="text-sm hover:text-blue-200 duration-500">Certificate</a></li>
+            <li class="mx-4 my-6  font-semibold"><a href="" class="text-sm hover:text-blue-200 duration-500">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container flex flex-col items-center justify-center w-full px-6">
+
+    <section id="Home" class="pt-5 h-[500px] ">
+            <div class="home-image flex items-center justify-center">
+                <img class="w-64" src="/assets/image/PP.png" alt="">
+            </div>
+            <div class="home-text self-center mt-5">
+                <p class="text-xs">Hi Semua 👋, saya</p>
+                <h1 class="text-2xl font-bold">Yakub <span class="text-blue-500">Firman</span> Mustofa</h1>
+                <p class="mt-4 text-sm mb-5 font-normal text-gray-700">Saya mahasiswa Teknik Informatika Universitas Muhammadiyah Surakarta</p>
+                
+                <a class="text-xs font-semibold text-white bg-blue-500 py-2 px-3 rounded-md" href="">Hubungi Saya</a>
+            </div>
+    </section>
+
+    <section id="about" class="pt-5 flex flex-col items-center justify-center ">
+        <h1 class="text-2xl font-semibold">About Me</h1>
+        <p class="font-medium text-gray-500">My Introduction</p>
+        
+        <div class="about-content mt-6">
+            <div class="about-text flex flex-col justify-center mt">
+                <p class="text-center font-light text-sm">Nama saya Yakub Firman Mustofa. Saya seorang mahasiswa Teknik Informatika Universitas Muhammadiyah Surakarta. Saya berasal dari Tuban, Jawa Timur. Saya memiliki minat yang kuat di bidang Pengembangan Web, Desain UI/UX, dan Desain Grafis.</p>
+                <div class="btn flex flex-col items-center justify-center">
+                    <div class="sosmed flex mt-3 items-center justify-center mb-8">
+                        <a class="mx-2" href=""><img class="h-4" src="/assets/icon/linkedin .png" alt=""></a>
+                        <a class="mx-2" href=""><img class="h-4" src="/assets/icon/instagram.png" alt=""></a>
+                        <a class="mx-2" href=""><img class="h-4" src="/assets/icon/twitter.png" alt=""></a>
+                        <a class="mx-2" href=""><img class="h-4" src="/assets/icon/github.png" alt=""></a>
+                    </div>
+                    <a class="text-xs font-semibold text-white bg-blue-500 py-2 px-3 rounded-md " href="">Download CV</a>
+
+                </div>
+    
+            </div>
+            <div class="about-image mt-10 flex items-center justify-center">
+                <img class="h-[250px]" src="/assets/image/aboutimg.png" alt="">
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="skills" class="pt-5 flex flex-col items-center justify-center">
+        <h1 class="text-2xl font-semibold">My Skils</h1>
+        <p class="font-medium text-gray-500">What can I do</p>
+        <div class="skills-content mt-5">
+            <div class="skilss-3 grid grid-row-3 gap-2">
+                <div class="skills bg-slate-500">
+                    hallo
+                </div>
+                <div class="skills bg-slate-500">
+                    hallo
+                </div>
+                <div class="skills bg-slate-500">
+                    hallo
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
